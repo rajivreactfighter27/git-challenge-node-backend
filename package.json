@@ -1,0 +1,19 @@
+{
+  "name": "challenge-backend",
+  "version": "1.0.0",
+  "main": "services/index.js",
+  "scripts": {
+    "start": "node services/index.js",
+    "dev": "node --watch services/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Fastify event management service with mocked external dependencies and resilience controls.",
+  "dependencies": {
+    "fastify": "^5.12.7",
+    "msw": "^2.7.3"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "type": "commonjs"
+}
